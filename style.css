@@ -1,9 +1,27 @@
-:root {
-  
-}
-h1{
+
+header h1{
   color: #e47312;
   text-align: center;
   background-color: #94aa2a;
-  
+  border-color: "black";
+  padding: .75em;
+  border-style: solid;
 }
+body{
+  ;
+}
+article h1 {
+    color: crimson;
+    text-align: center;
+    border-top: solid; 
+    border-top-width: .5em; 
+    border-color:lightskyblue;  
+}
+article.one{
+  color: yellowgreen;
+}
+
+article{
+  margin: 4em
+}
+
