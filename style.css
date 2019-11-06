@@ -1,11 +1,12 @@
 
 header h1{
-  color: #e47312;
+  color: aliceblue;
   text-align: center;
-  background-color: #94aa2a;
+  background-color: navy;
   border-color: "black";
   padding: .75em;
   border-style: solid;
+
 }
 body{
   
@@ -17,31 +18,32 @@ main{
 }
 .border {
   border-top-style: solid;
-  border-color: blueviolet;
+  border-color: rgb(79, 144, 228);
   margin: auto;
   border-top-width: 30px;
   width: 66%;
   margin-top: 2em;
 }
 article h1 {
-    color: crimson;
+    color: rgb(5, 5, 5);
     text-align: center; 
-}
+    font-size: 22pt;
+  }
 article p {
   margin: 0 1em 0 2em;
-  text-align: center;
+  text-align: left;
 }
 article.one{
   color: black;
 }
 side-article img {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 footer {
   border-bottom: solid;
   color: blue;
   border-width: 4em;
-  ;
+  
 }
 side-article h2{
   margin: auto;
@@ -51,3 +53,8 @@ side-article p{
   margin-bottom: 2em;
 
 }
+.middle {
+  font-size: 16pt;
+  text-align: left;
+}
+.lower {margin-bottom: 2em;}
