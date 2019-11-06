@@ -8,20 +8,43 @@ header h1{
   border-style: solid;
 }
 body{
-  ;
+  
+  
 }
+
+main{
+  display: flex;
+}
+
 article h1 {
     color: crimson;
-    text-align: center;
+    text-align: left;
     border-top: solid; 
     border-top-width: .5em; 
     border-color:lightskyblue;  
 }
 article.one{
-  color: yellowgreen;
+  color: black;
 }
 
-article{
+/* article{
   margin: 4em
+} */
+
+footer {
+  border-bottom: solid;
+  color: blue;
+  border-width: 4em;
+  ;
+}
+side-article h2{
+  margin: auto;
+}
+side-article p{
+  margin: auto;
 }
 
+/* img {
+  float:right;
+  top: 
+} */
